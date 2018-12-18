@@ -13,4 +13,14 @@ def array_to_tree(array, index=0):
 
 	right = left + 1	
 
+	# Return tree using reccursion
+	return {
+
+		value: array[index],
+
+		left: array_to_tree(array, left),
+
+		right: array_to_tree(array, right)
+	}
+
 		

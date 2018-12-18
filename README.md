@@ -1,2 +1,2 @@
 # Array-to-Tree-Python
-#### Function that Converts a given array into a Tree using reccursion
+#### Function that returns a tree of values when given an array

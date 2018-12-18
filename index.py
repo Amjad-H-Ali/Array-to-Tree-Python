@@ -8,4 +8,9 @@ def array_to_tree(array, index=0):
 	if index > len(array):
 		return None
 
+	# Define and initialize left and right children nodes
+	left = (index * 2) + 1
+
+	right = left + 1	
+
 		
